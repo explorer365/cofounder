@@ -18,9 +18,9 @@
         </nuxt-link>
       </div>
       <div class="logo-text">
-        bigfive
+        THE COFOUNDER PROJECT
         <span class="slogan">
-          Learn to know your self
+        Man, Know Thyself
         </span>
       </div>
       <v-spacer></v-spacer>

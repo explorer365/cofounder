@@ -1,28 +1,29 @@
 <template>
-  <v-footer class="pl-10 mt-10">
+   <v-footer class="pl-10 mt-10">
     <v-col class="footer-heading">
-      SAY<br/>HALLO
+      
     </v-col>
-    <v-col cols="12" class="pt-0">
+    <!-- <v-col cols="12" class="pt-0">
       <v-icon>{{ mdiFacebook }}</v-icon>
       <v-divider inset vertical class="mx-1"></v-divider>
       <v-icon>{{ mdiTwitter }}</v-icon>
       <v-divider inset vertical class="mx-1"></v-divider>
       <v-icon>{{ mdiLinkedin }}</v-icon>
-    </v-col>
-    <v-col cols="12" class="footer-about">
+    </v-col> -->
+    <!-- <v-col cols="12" class="footer-about">
       Rubynor<br/>
       Bedriftsveien 64<br/>
       3735 Skien, Norway<br /><br />
       bigfive-test@rubynor.com<br />
-    </v-col>
+    </v-col> -->
     <v-col
       class="footer-text"
       cols="12"
     >
-      © {{ new Date().getFullYear() }} — Rubynor - all rights reserved.
+      © {{ new Date().getFullYear() }}
     </v-col>
   </v-footer>
+
 </template>
 
 <script>
