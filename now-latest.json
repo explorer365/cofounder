@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "scope": "rubynor",
-  "alias": "latest.bigfive-test.com",
+  "scope": "danikay356@gmail.com",  
+  // "scope": "rubynor",
+  "alias": "haziwa.com",
   "env": {
-    "MONGODB_URI": "@mongodb_uri",
+    "MONGODB_URI": "@mongodb://kayode:Course*##2015@ds033106.mlab.com:33106/tcp",
+    // "MONGODB_URI": "@mongodb_uri",
+
     "MONGODB_COLLECTION": "results",
-    "BASE_URL": "https://latest.bigfive-test.com"
+    "BASE_URL": ""
   },
   "builds": [
     {
