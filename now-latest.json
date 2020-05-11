@@ -1,12 +1,9 @@
 {
   "version": 2,
   "scope": "danikay356@gmail.com",  
-  // "scope": "rubynor",
   "alias": "haziwa.com",
   "env": {
     "MONGODB_URI": "@mongodb://kayode:Course*##2015@ds033106.mlab.com:33106/tcp",
-    // "MONGODB_URI": "@mongodb_uri",
-
     "MONGODB_COLLECTION": "results",
     "BASE_URL": ""
   },
