@@ -38,12 +38,12 @@
                 <nuxt-link :to="localePath('neuroticism')">{{ $t('facets.neuroticism.title') }}</nuxt-link>
               </i>.
             </p>
-            <div class="counter">
+            <!-- <div class="counter">
               700 000 +
               <span class="font-italic text--secondary">
                 {{ $t('frontpage.description.tests_taken') }}
               </span>
-            </div>
+            </div> -->
 
             <p>
               <v-btn large color="secondary" :to="localePath('/test')">
@@ -80,7 +80,7 @@
         </v-card-title>
       </v-card>
       </v-flex>
-
+<!-- 
       <v-flex>
         <v-card>
           <v-card-title>
@@ -92,7 +92,7 @@
             </p>
           </v-card-text>
         </v-card>
-      </v-flex>
+      </v-flex> -->
 
       <v-flex xs12 md6 class="d-none">
         <v-card>
