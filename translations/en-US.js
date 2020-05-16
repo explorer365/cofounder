@@ -7,7 +7,7 @@ export default {
       top: 'A successful startup is the combination of 4 factors; Timing, Idea, Funding and the Founding Team. We believe the most important factor in a startup is <b>The Founding Team</b>',
       subtop: 'This is why we exist',
       subtop: 'The Cofounder Project measures 5 traits or domains namely;',
-      subtop2: ' among team members, and also recommends methods to ensure the team’s working relationship is excellent.',
+      subtop2: 'among team members, and also recommends methods to ensure the team’s working relationship is excellent.',
 //       reference: `Tests and evaluation for this site is gathered from
 // <a href="http://ipip.ori.org" rel="noopener" target="_blank">ipip.ori.org</a>,
 // inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
