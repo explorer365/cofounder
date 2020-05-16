@@ -19,9 +19,9 @@
       </div>
       <div class="logo-text">
         THE COFOUNDER PROJECT
-        <span class="slogan">
+        <!-- <span class="slogan">
         Man, Know Thyself
-        </span>
+        </span> -->
       </div>
       <v-spacer></v-spacer>
       <v-btn text :to="localePath('result')" class="hidden-sm-and-down">See your results</v-btn>
