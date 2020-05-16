@@ -1,18 +1,19 @@
 export default {
   language: 'English',
   frontpage: {
-    title: 'Big Five Personality Test',
+    title: 'Build Your World-class Team',
     call_to_action: 'Take the free test now',
     description: {
-      top: 'Learn to know yourself and others better with a <b>free, open-source</b> personality test.',
-      subtop: 'The',
-      subtop2: ' is the most scientifically validated and reliable psychological model to measure personality.',
-      reference: `Tests and evaluation for this site is gathered from
-<a href="http://ipip.ori.org" rel="noopener" target="_blank">ipip.ori.org</a>,
-inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
-      info: 'The following test contains <b>120 questions</b> which is estimated to take you about <b>10 minutes</b> to complete.',
-      result: 'After you have completed the test you will receive a detailed personality report in the following domains:',
-      tests_taken: 'tests taken so far'
+      top: 'A successful startup is the combination of 4 factors; Timing, Idea, Funding and the Founding Team. We believe the most important factor in a startup is <b>The Founding Team</b>',
+      subtop: 'This is why we exist',
+      subtop: 'The Cofounder Project measures 5 traits or domains namely;',
+      subtop2: ' among team members, and also recommends methods to ensure the team’s working relationship is excellent.',
+//       reference: `Tests and evaluation for this site is gathered from
+// <a href="http://ipip.ori.org" rel="noopener" target="_blank">ipip.ori.org</a>,
+// inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
+      info: 'The test which contains <b>120 questions</b> is is the most scientifically validated and reliable psychological model to measure personality, would take you about <b>10 minutes</b> to complete.',
+      result: 'You believe your startup is the next big thing and we believe it too. For your startup to be exceptional, your team needs to understand each other and be united.',
+      // tests_taken: 'tests taken so far'
     }
   },
   toolbar: {
@@ -49,7 +50,7 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     mostAccurate: 'most accurate result possible',
     readMoreAbout: 'Read more about',
     privacy: 'privacy',
-    nextButton: 'Okey, next question',
+    nextButton: 'Okay, next question',
     declineButton: 'continue without sharing',
     prefferedLanguage: 'My preffered language is',
     selectLanguage: 'Select a language',

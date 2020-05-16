@@ -3,7 +3,7 @@
     "scope": "danikay356@gmail.com",  
     "alias": ["haziwa.com", "www.haziwa.com"],
     "env": {
-      "MONGODB_URI": "mongodb_uri",
+      "MONGODB_URI": "@mongodb://kayode:Course*##2015@ds033106.mlab.com:33106/tcp",
       "MONGODB_COLLECTION": "results",
       "BASE_URL": ""
   },

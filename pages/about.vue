@@ -2,9 +2,9 @@
   <div class="about">
     <h1 class="subheading grey--text">About</h1>
     Under construction.
-    <h1 class="subheading grey--text">Team</h1>
+    <!-- <h1 class="subheading grey--text">Team</h1>
 
-    <!-- <v-container class="my-5">
+    <v-container class="my-5">
       <v-layout row wrap>
         <v-flex xs12 sm6 md6 v-for="person in team" :key="person.name">
           <v-card flat width="400px" class="text-xs-center ma-3">

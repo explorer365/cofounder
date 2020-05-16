@@ -7,7 +7,7 @@
           <v-img
           class="white--text align-end"
           height="200px"
-          :src="require('@/assets/front_image.jpg')"
+          :src="require('@/assets/front_image.png')"
           :lazy-src="require('@/assets/front_image_lazy.jpg')"
           lazy
           >
@@ -20,7 +20,14 @@
             </p>
             <p>
               {{ $t('frontpage.description.subtop') }}
-              <nuxt-link :to="localePath('big_five')">{{ $t('frontpage.title') }}</nuxt-link>
+                <i>
+                <nuxt-link :to="localePath('openness_to_experience')">{{ $t('facets.openness_to_experience.title') }}</nuxt-link>,
+                <nuxt-link :to="localePath('conscientiousness')">{{ $t('facets.conscientiousness.title') }}</nuxt-link>,
+                <nuxt-link :to="localePath('extraversion')">{{ $t('facets.extraversion.title') }}</nuxt-link>,
+                <nuxt-link :to="localePath('agreeableness')">{{ $t('facets.agreeableness.title') }}</nuxt-link> {{ $t('common.and') }}
+                <nuxt-link :to="localePath('neuroticism')">{{ $t('facets.neuroticism.title') }}</nuxt-link>
+              </i>.
+              <!-- <nuxt-link :to="localePath('big_five')">{{ $t('frontpage.title') }}</nuxt-link> -->
               {{ $t('frontpage.description.subtop2') }}
             </p>
             <p v-html="$t('frontpage.description.reference')" >
@@ -30,13 +37,7 @@
             <p v-html="$t('frontpage.description.result')">
             </p>
             <p>
-              <i>
-                <nuxt-link :to="localePath('openness_to_experience')">{{ $t('facets.openness_to_experience.title') }}</nuxt-link>,
-                <nuxt-link :to="localePath('conscientiousness')">{{ $t('facets.conscientiousness.title') }}</nuxt-link>,
-                <nuxt-link :to="localePath('extraversion')">{{ $t('facets.extraversion.title') }}</nuxt-link>,
-                <nuxt-link :to="localePath('agreeableness')">{{ $t('facets.agreeableness.title') }}</nuxt-link> {{ $t('common.and') }}
-                <nuxt-link :to="localePath('neuroticism')">{{ $t('facets.neuroticism.title') }}</nuxt-link>
-              </i>.
+            
             </p>
             <!-- <div class="counter">
               700 000 +
