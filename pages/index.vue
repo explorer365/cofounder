@@ -29,9 +29,9 @@
               </i>.
               <!-- <nuxt-link :to="localePath('big_five')">{{ $t('frontpage.title') }}</nuxt-link> -->
               {{ $t('frontpage.description.subtop2') }}
-            </p>
+            <!-- </p>
             <p v-html="$t('frontpage.description.reference')" >
-            </p>
+            </p> -->
             <p v-html="$t('frontpage.description.info')">
             </p>
             <p v-html="$t('frontpage.description.result')">
